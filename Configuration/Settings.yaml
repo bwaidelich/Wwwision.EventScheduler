@@ -1,0 +1,8 @@
+Neos:
+  EventSourcing:
+    EventStore:
+      stores:
+        'Wwwision.EventScheduler':
+          boundedContexts:
+            'Wwwision.EventScheduler': true
+          storage: 'Wwwision\EventScheduler\EventStore\TransientEventStorage'

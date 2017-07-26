@@ -1,0 +1,26 @@
+{
+    "description": "Simple Event Scheduler",
+    "type": "neos-package",
+    "name": "wwwision/event-scheduler",
+    "license": "MIT",
+    "require": {
+        "neos/flow": "^4.0",
+        "neos/event-sourcing": "dev-master",
+        "php": "~7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wwwision\\EventScheduler\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wwwision\\EventScheduler\\Tests\\": "Tests"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Wwwision.EventScheduler"
+        }
+    }
+}
